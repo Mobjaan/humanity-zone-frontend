@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "gh-pages": "ng build --prod --base-href \"https://Mobjaan.github.io/humanity-zone-frontend/\" && npx angular-cli-ghpages --dir=dist"
   },
   "private": true,
   "dependencies": {
